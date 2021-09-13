@@ -11,13 +11,13 @@ yspeed = 1;
 
 
 function draw() {
-	background(225);
+	background(169);
 
   circle(x, 130, 20);
 
   x = x + v;
  
-if(x < 0 || x > 300){
+if(x < 0 || x > 400){
    v = v * -1;
 }
 
