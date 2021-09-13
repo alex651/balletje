@@ -11,7 +11,7 @@ function draw() {
 
   circle(x, 130, 20);
 
-  x = x +23;
+  x = x +5;
 
 if(x > 300){
    x = 0;
