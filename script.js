@@ -27,16 +27,19 @@ class Ball {
   }
 }
 
-var ball1, ball2, ball3;
+var ball1, ball2, ball3, ball4, ball5;
 
 function setup() {
   createCanvas(500,500);
-  ball1 = new Ball(30,200,50,50,5,5, "red");
+  ball1 = new Ball(30,200,50,50,7,5, "red");
 
   ball2 = new Ball(120,210,50,50,3,3, "blue");
 
-  ball3 = new Ball(200,150,50,50,1,1, "green");
+  ball3 = new Ball(200,150,50,50,5,5, "green");
 
+  ball4 = new Ball(90,130,50,50,5,5, "cyan");
+
+  ball5 = new Ball(80,135,50,50,11,5, "yellow");
 }
 
 function draw() {
@@ -44,6 +47,7 @@ function draw() {
   ball1.draw();
   ball2.draw();
   ball3.draw();
-
+  ball4.draw();
+  ball5.draw();
   
 }
